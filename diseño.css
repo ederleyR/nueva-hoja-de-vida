@@ -1,0 +1,89 @@
+.contenido {
+    background-image: url("imagenes/abstract-technology-banner-background.jpg");
+    color: ghostwhite;
+    display: flex;
+    gap: 30px;             
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contenedor {
+    display: flex;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+.informacion {
+    position: absolute;       
+    bottom: 10px;                
+    right: 20px;              
+    width: 30%;               
+    background: #0077b6;
+    padding: 50px;
+}
+.nombre {
+    width: 70%;
+    min-height: 100vh;   
+    background: white;
+}
+
+.contenido{
+    padding-left: 15px;
+}
+.NomApe{
+    color:rgb(0, 17, 255);
+    font-size: 35px;
+}
+.datos{
+    font-size: 20px;
+}
+.perfil {
+    top: 50px; 
+    right: 50px;
+    width: 200px;           
+    height: 200px;        
+    border-radius: 50%;   
+    object-fit: cover;    
+    border: 2px solid rgb(255, 255, 255); 
+    border-style: solid;
+}
+h2{
+    background-color: #153292;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.panel {
+    display: block;        
+    column-count: 2;      
+    column-gap: 25px;     
+    padding: 20px;
+}
+.card {
+    background: #cdf5ff;
+    border-radius: 12px;
+    padding: 18px;
+    box-sizing: border-box;
+    width: 100%;           
+    margin-bottom: 25px;   
+    break-inside: avoid;   
+    display: inline-block; 
+}
+.skill-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.habilidades{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: solid black 2px;
+    color: black;
+    display: inline-block;
+    padding: 5px;
+}
